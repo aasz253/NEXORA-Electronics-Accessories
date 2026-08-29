@@ -28,7 +28,7 @@ const reasons = [
   {
     icon: HeartHandshake,
     title: "Customer First",
-    desc: "We put your needs first and make ordering simple and honest.",
+    desc: "Ask for photos, ask for advice — you buy when you're ready.",
   },
   {
     icon: MessageCircle,
@@ -43,7 +43,7 @@ export default function WhyNexora() {
       <SectionHeading
         eyebrow="Why Nexora"
         title="Why Choose Nexora?"
-        subtitle="More than a shop — a tech partner built around you in Kenya."
+        subtitle="Run from Nairobi, stocked for Kenyan buyers — no fuss, no inflated specs."
       />
       <MotionStagger
         className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"

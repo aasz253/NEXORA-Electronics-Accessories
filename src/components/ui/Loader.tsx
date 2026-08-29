@@ -58,7 +58,7 @@ export default function Loader({ ready }: { ready: boolean }) {
             NEXORA
           </p>
           <p className="mt-1 text-xs uppercase tracking-widest text-fog">
-            Electronics · Accessories · Next Level
+            Electronics &amp; Accessories · Kenya
           </p>
 
           <div className="mt-8 h-1 w-56 overflow-hidden rounded-full bg-white/10">

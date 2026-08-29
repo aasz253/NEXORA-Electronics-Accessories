@@ -70,7 +70,7 @@ export default function CustomCursor() {
           height: hovering ? 44 : 30,
           opacity: pressed ? 0.5 : 1,
           scale: pressed ? 0.8 : 1,
-          backgroundColor: hovering ? "rgba(56,199,255,0.08)" : "rgba(0,0,0,0)",
+          backgroundColor: hovering ? "rgba(255,196,0,0.08)" : "rgba(0,0,0,0)",
         }}
         transition={{ type: "spring", stiffness: 300, damping: 25 }}
       />

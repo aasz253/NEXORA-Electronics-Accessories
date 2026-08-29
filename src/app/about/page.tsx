@@ -49,9 +49,9 @@ export default function AboutPage() {
             WhatsApp.
           </p>
           <p className="mt-4 leading-relaxed text-mist">
-            From powerful audio and reliable power to the accessories that
-            upgrade your workspace, everything in our collection is chosen to
-            keep you connected, productive and powered up.
+            From audio and power to the accessories that sort out your desk,
+            everything here is picked because it works — and priced so you
+            don&apos;t have to think twice.
           </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -62,8 +62,8 @@ export default function AboutPage() {
             </div>
             <div className="rounded-2xl border border-white/8 bg-white/4 p-5 text-center">
               <Sparkles className="mx-auto h-7 w-7 text-cyan-300" />
-              <p className="mt-3 text-sm font-semibold text-white">Curated</p>
-              <p className="mt-1 text-xs text-mist">Handpicked range</p>
+              <p className="mt-3 text-sm font-semibold text-white">Handpicked</p>
+              <p className="mt-1 text-xs text-mist">Only what we&apos;d use ourselves</p>
             </div>
             <div className="rounded-2xl border border-white/8 bg-white/4 p-5 text-center">
               <MessageCircle className="mx-auto h-7 w-7 text-cyan-300" />

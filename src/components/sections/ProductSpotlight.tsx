@@ -31,7 +31,7 @@ export default function ProductSpotlight() {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[40rem] w-[40rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(15,139,255,0.14),transparent_60%)]"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[40rem] w-[40rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(255,196,0,0.12),transparent_60%)]"
       />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
@@ -88,8 +88,8 @@ export default function ProductSpotlight() {
             className="mt-4 max-w-md text-mist"
           >
             Keep every device charged from morning to night with the Nexora
-            high-capacity power bank. Fast, reliable, and ready for anything
-            your day throws at it.
+            high-capacity power bank — fast output, honest capacity, and built
+            for the way you actually use your week.
           </motion.p>
 
           <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">

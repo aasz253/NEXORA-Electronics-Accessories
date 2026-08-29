@@ -35,9 +35,9 @@ export default function HomePage() {
           slug="audio"
           eyebrow="Sound"
           heading="Turn It Up."
-          subtitle="Earbuds, headphones and Bluetooth speakers with the sound that makes everything better — for work, play and everything between."
+          subtitle="Earbuds, headphones and Bluetooth speakers built for work, play and the commute in between."
           heroImage="/products/headphones.jpeg"
-          backdrop="rgba(56,199,255,0.10)"
+          backdrop="rgba(212,243,74,0.08)"
           reverse
         />
       </div>
@@ -47,9 +47,9 @@ export default function HomePage() {
         slug="laptop-accessories"
         eyebrow="Workspace"
         heading="Upgrade Your Workspace."
-        subtitle="Laptop stands, bags, wireless mice and keyboards that make every work session sharper and more comfortable."
+        subtitle="Laptop stands, bags, wireless mice and keyboards for a desk that works as hard as you do."
         heroImage="/products/oraimo-charger.jpeg"
-        backdrop="rgba(138,123,255,0.10)"
+        backdrop="rgba(255,196,0,0.10)"
       />
 
       {/* Mobile accessories */}
@@ -57,9 +57,9 @@ export default function HomePage() {
         slug="mobile-accessories"
         eyebrow="Everyday"
         heading="Built for Your Everyday."
-        subtitle="Phone stands, holders, chargers and cables that keep up with real, everyday life."
+        subtitle="Phone stands, holders, chargers and cables that keep up with real life."
         heroImage="/products/phones-1.jpeg"
-        backdrop="rgba(15,139,255,0.10)"
+        backdrop="rgba(212,243,74,0.10)"
         reverse
       />
 
@@ -67,9 +67,9 @@ export default function HomePage() {
       <CollectionSection
         slug="content-creation"
         eyebrow="Create"
-        heading="Create Without Limits."
-        subtitle="Ring lights, webcams and studio-ready audio for creators who take their content seriously."
-        backdrop="rgba(226,102,255,0.10)"
+        heading="Make It Look Pro."
+        subtitle="Ring lights, webcams and audio gear for creators who take their content seriously."
+        backdrop="rgba(255,176,0,0.10)"
       />
 
       <WhyNexora />

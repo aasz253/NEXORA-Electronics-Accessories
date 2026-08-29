@@ -32,14 +32,14 @@ export default function TechUniverse() {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[42rem] w-[42rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(15,139,255,0.10),transparent_65%)]"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[42rem] w-[42rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(255,196,0,0.10),transparent_65%)]"
       />
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
-          eyebrow="The Universe"
-          title="Your Tech Universe"
-          subtitle="Everything you need. One place."
+          eyebrow="The Range"
+          title="All your tech, one shop"
+          subtitle="Audio, power, storage and desk gear — if it plugs in, we probably stock it."
         />
 
         <div className="relative mt-10 flex h-[30rem] w-full items-center justify-center sm:h-[34rem]">
@@ -100,16 +100,16 @@ export default function TechUniverse() {
             className="relative z-10 max-w-sm text-center"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
-              Discover · Choose · Order
+              Audio · Power · Desk
             </p>
             <h3 className="mt-3 font-display text-3xl font-extrabold text-white sm:text-4xl">
-              Everything you need.
+              Whatever you&apos;re after,
               <br />
-              <span className="text-gradient-cyan">One place.</span>
+              <span className="text-gradient-cyan">it&apos;s probably in here.</span>
             </h3>
             <p className="mt-4 text-sm text-mist">
-              Sound, power, workspace and everyday accessories — curated for
-              how you live and work.
+              A speaker, a charger, a cable, a stand — if you use it daily,
+              we&apos;ve got it on the shelf.
             </p>
           </motion.div>
         </div>

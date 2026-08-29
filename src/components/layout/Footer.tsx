@@ -104,7 +104,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {siteConfig.fullName}. All rights
             reserved.
           </p>
-          <p className="text-xs text-fog">Electronics. Accessories. Next Level.</p>
+          <p className="text-xs text-fog">Proudly Kenyan.</p>
         </div>
       </div>
     </footer>

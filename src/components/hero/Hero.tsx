@@ -81,7 +81,7 @@ export default function Hero() {
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(90%_70%_at_50%_100%,rgba(15,139,255,0.12),transparent_65%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(90%_70%_at_50%_100%,rgba(255,196,0,0.12),transparent_65%)]" />
       </div>
 
       <motion.div
@@ -95,7 +95,7 @@ export default function Hero() {
           className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-cyan-200 backdrop-blur"
         >
           <Sparkles className="h-3.5 w-3.5" />
-          Kenya&apos;s premium tech showroom
+          Proudly Nairobi · Genuine tech
         </motion.span>
 
         <motion.h1
@@ -113,7 +113,9 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
           className="mt-5 font-display text-xl font-semibold text-gradient-cyan sm:text-2xl md:text-3xl"
         >
-          Electronics. Accessories. Next&nbsp;Level.
+          Electronics &amp; Accessories
+          <br />
+          <span className="text-gradient-cyan">Genuine tech. Honest prices.</span>
         </motion.p>
 
         <motion.p
@@ -122,8 +124,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.65 }}
           className="mt-5 max-w-xl text-base leading-relaxed text-mist sm:text-lg"
         >
-          Discover premium electronics and everyday tech accessories designed to
-          keep you connected, productive and powered up.
+          Headphones, speakers, chargers and desk gear — every piece checked
+          before it sells, so you get tech that actually keeps working.
         </motion.p>
 
         <motion.div

@@ -144,7 +144,7 @@ export default function ProductCard({ product }: { product: Product }) {
             <button
               onClick={handleAdd}
               aria-label={`Add ${product.name} to cart`}
-              className="grid h-9 w-9 place-items-center rounded-full bg-gradient-to-r from-electric-500 to-cyan-500 text-white shadow-[0_8px_24px_-8px_rgba(15,139,255,0.9)] transition active:scale-90"
+              className="grid h-9 w-9 place-items-center rounded-full bg-gradient-to-r from-electric-500 to-cyan-500 text-white shadow-[0_8px_24px_-8px_rgba(255,196,0,0.8)] transition active:scale-90"
             >
               <Plus className="h-4 w-4" />
             </button>

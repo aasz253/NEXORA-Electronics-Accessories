@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "NEXORA",
   fullName: "NEXORA Electronics & Accessories",
-  tagline: "Electronics. Accessories. Next Level.",
+  tagline: "Genuine tech. Honest prices.",
   description:
     "Discover premium electronics and everyday tech accessories designed to keep you connected, productive and powered up.",
 

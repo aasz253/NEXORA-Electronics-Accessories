@@ -1,11 +1,11 @@
 "use client";
 
-import { ShieldCheck, Truck, Headphones, Star } from "lucide-react";
+import { ShieldCheck, Truck, Headphones, Sparkles } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { MotionStagger, MotionItem } from "@/components/ui/MotionWrapper";
 
 const stats = [
-  { icon: ShieldCheck, title: "Quality You Can Trust", desc: "Curated, checked products that perform day after day." },
+  { icon: ShieldCheck, title: "Quality You Can Trust", desc: "Handpicked, checked products that perform day after day." },
   { icon: Truck, title: "Fast Local Delivery", desc: "Quick, reliable delivery within Nairobi and across Kenya." },
   { icon: Headphones, title: "Support That Answers", desc: "Reach us on WhatsApp — we're here to help before and after your order." },
 ];
@@ -15,7 +15,7 @@ export default function TrustSection() {
     <section className="relative border-y border-white/5 py-20 sm:py-24">
       <div
         aria-hidden
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(138,123,255,0.08),transparent_65%)]"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(255,196,0,0.08),transparent_65%)]"
       />
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8">
         <SectionHeading
@@ -43,19 +43,22 @@ export default function TrustSection() {
           ))}
         </MotionStagger>
 
-        {/* Reviews placeholder — replace with real customer feedback */}
-        <div className="mt-10 rounded-3xl border border-dashed border-white/15 bg-white/4 p-6 text-center">
-          <div className="mx-auto mb-3 flex w-fit items-center gap-1 text-amber-300">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Star key={i} className="h-4 w-4 fill-current" />
-            ))}
+        {/* Honest early-days note */}
+        <div className="mt-10 rounded-3xl border border-white/10 bg-gradient-to-b from-white/4 to-transparent p-8 text-center">
+          <div className="mx-auto mb-4 grid h-12 w-12 place-items-center rounded-2xl border border-white/10 bg-gradient-to-br from-electric-500/20 to-cyan-500/10">
+            <Sparkles className="h-6 w-6 text-cyan-300" />
           </div>
-          <p className="mx-auto max-w-2xl text-sm leading-relaxed text-mist">
-            “Customer reviews go here. Share feedback from real Nexora customers
-            to build trust — replace this placeholder in the trust section.”
+          <h3 className="font-display text-lg font-bold text-white">
+            Early days — and honest about it
+          </h3>
+          <p className="mx-auto mt-2 max-w-2xl text-sm leading-relaxed text-mist">
+            We&apos;re a fresh shop and genuine reviews are still trickling in.
+            Before you buy, ask us on WhatsApp for extra photos or a quick
+            video of the product — we&apos;d rather show you exactly what
+            you&apos;re getting than oversell it.
           </p>
           <p className="mt-4 text-xs uppercase tracking-widest text-fog">
-            Awaiting real customer testimonials
+            No fake reviews. Ever.
           </p>
         </div>
       </div>

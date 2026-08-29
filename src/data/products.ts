@@ -404,7 +404,7 @@ export const products: Product[] = [
     type: "Ring light",
     image: ILLU("creator-ring.svg"),
     description:
-      "Studio-style lighting for creators — soft, even glow that elevates every frame.",
+      "Studio-style lighting for creators — soft and even, so every shot just looks right.",
     specifications: ["Soft even glow", "Adjustable stand", "Creator ready"],
     availability: "In stock",
   }),

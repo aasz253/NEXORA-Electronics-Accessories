@@ -11,7 +11,7 @@ export default function CategoriesSection() {
       <SectionHeading
         eyebrow="Collections"
         title="Explore the Nexora Collection"
-        subtitle="From powerful audio to everyday power, find the tech that fits your life — all in one premium showroom."
+        subtitle="From earbuds and power banks to laptop stands and cables — everything in one place, ready to order."
       />
       <MotionStagger
         className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"

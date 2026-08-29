@@ -6,7 +6,7 @@ export const categories: Category[] = [
     name: "Audio",
     short: "Earbuds · Headphones · Speakers",
     description:
-      "Wireless earbuds, over-ear headphones and Bluetooth speakers crafted for immersive, high-fidelity sound.",
+      "Wireless earbuds, over-ear headphones and Bluetooth speakers for sound that fills the room.",
     icon: "AudioLines",
     accent: "from-cyan-400/40 to-electric-500/30",
   },
