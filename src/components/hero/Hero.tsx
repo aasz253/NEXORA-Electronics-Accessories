@@ -18,24 +18,24 @@ function MobileShowcase() {
     <div className="pointer-events-none relative mx-auto mt-4 flex h-[46vh] w-full max-w-sm items-end justify-center">
       <div className="relative h-full w-full">
         <motion.div
-          initial={{ opacity: 0, y: 40, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ y: 40, scale: 0.9 }}
+          animate={{ y: 0, scale: 1 }}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="floating absolute left-0 top-4 h-36 w-28 overflow-hidden rounded-2xl border border-white/10 shadow-2xl"
         >
           <Image src="/products/power-bank.jpeg" alt="Power bank" fill sizes="112px" className="object-cover" priority />
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 40, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ y: 40, scale: 0.9 }}
+          animate={{ y: 0, scale: 1 }}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.55 }}
           className="floating-slow absolute right-0 top-0 h-36 w-28 overflow-hidden rounded-2xl border border-white/10 shadow-2xl"
         >
           <Image src="/products/pro-earpods.jpeg" alt="Earpods" fill sizes="112px" className="object-cover" priority />
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 40, scale: 0.95 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
+          initial={{ y: 40, scale: 0.95 }}
+          animate={{ y: 0, scale: 1 }}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.7 }}
           className="floating-reverse absolute bottom-0 left-1/2 h-48 w-72 -translate-x-1/2 overflow-hidden rounded-2xl border border-white/10 shadow-2xl"
         >

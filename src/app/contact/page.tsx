@@ -42,12 +42,12 @@ export default function ContactPage() {
             {contactCards.map((c) => (
               <div
                 key={c.label}
-                className="flex items-center gap-4 rounded-2xl border border-white/8 bg-gradient-to-b from-white/4 to-transparent p-4"
+                className="flex items-start gap-4 rounded-2xl border border-white/8 bg-gradient-to-b from-white/4 to-transparent p-4"
               >
                 <div className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-white/10 bg-white/5">
                   <c.icon className="h-5 w-5 text-cyan-300" />
                 </div>
-                <div>
+                <div className="min-w-0 break-words">
                   <p className="text-xs uppercase tracking-widest text-fog">
                     {c.label}
                   </p>

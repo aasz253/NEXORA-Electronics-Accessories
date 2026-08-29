@@ -67,7 +67,7 @@ export default function Background() {
       ))}
 
       {/* Top light beam */}
-      <div className="absolute left-1/2 top-0 h-[40rem] w-[60rem] -translate-x-1/2 bg-[radial-gradient(ellipse_at_top,rgba(56,167,255,0.10),transparent_60%)]" />
+      <div className="absolute left-1/2 top-0 h-[40rem] w-[60rem] -translate-x-1/2 bg-[radial-gradient(ellipse_at_top,rgba(255,196,0,0.10),transparent_60%)]" />
     </div>
   );
 }
