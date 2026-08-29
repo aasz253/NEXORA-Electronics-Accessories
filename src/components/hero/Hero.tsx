@@ -23,7 +23,7 @@ function MobileShowcase() {
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="floating absolute left-0 top-4 h-36 w-28 overflow-hidden rounded-2xl border border-white/10 shadow-2xl"
         >
-          <Image src="/products/power-bank.jpeg" alt="Power bank" fill sizes="112px" className="object-cover" />
+          <Image src="/products/power-bank.jpeg" alt="Power bank" fill sizes="112px" className="object-cover" priority />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 40, scale: 0.9 }}
@@ -31,7 +31,7 @@ function MobileShowcase() {
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.55 }}
           className="floating-slow absolute right-0 top-0 h-36 w-28 overflow-hidden rounded-2xl border border-white/10 shadow-2xl"
         >
-          <Image src="/products/pro-earpods.jpeg" alt="Earpods" fill sizes="112px" className="object-cover" />
+          <Image src="/products/pro-earpods.jpeg" alt="Earpods" fill sizes="112px" className="object-cover" priority />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 40, scale: 0.95 }}
@@ -39,7 +39,7 @@ function MobileShowcase() {
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.7 }}
           className="floating-reverse absolute bottom-0 left-1/2 h-48 w-72 -translate-x-1/2 overflow-hidden rounded-2xl border border-white/10 shadow-2xl"
         >
-          <Image src="/products/headphones.jpeg" alt="Headphones" fill sizes="288px" className="object-cover" />
+          <Image src="/products/headphones.jpeg" alt="Headphones" fill sizes="288px" className="object-cover" priority />
         </motion.div>
       </div>
     </div>
@@ -149,7 +149,7 @@ export default function Hero() {
           className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-xs text-fog"
         >
           <span>✓ Genuine products</span>
-          <span>✓ Fast Nairobi delivery</span>
+          <span>✓ Delivery to all 47 counties</span>
           <span>✓ Order via WhatsApp</span>
         </motion.div>
       </motion.div>

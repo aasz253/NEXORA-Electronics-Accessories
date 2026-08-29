@@ -18,6 +18,14 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      {/* Preload the 3D hero textures so the scene paints instantly */}
+      <link rel="preload" as="image" href="/products/pro-earpods.jpeg" />
+      <link rel="preload" as="image" href="/products/power-bank.jpeg" />
+      <link rel="preload" as="image" href="/products/headphones.jpeg" />
+      <link rel="preload" as="image" href="/products/oraimo-earphones-bt.jpeg" />
+      <link rel="preload" as="image" href="/products/oraimo-charger.jpeg" />
+      <link rel="preload" as="image" href="/products/phones-1.jpeg" />
+
       <Hero />
 
       <CategoriesSection />

@@ -6,7 +6,7 @@ import { MotionStagger, MotionItem } from "@/components/ui/MotionWrapper";
 
 const stats = [
   { icon: ShieldCheck, title: "Quality You Can Trust", desc: "Handpicked, checked products that perform day after day." },
-  { icon: Truck, title: "Fast Local Delivery", desc: "Quick, reliable delivery within Nairobi and across Kenya." },
+  { icon: Truck, title: "We Deliver Everywhere", desc: "Quick, reliable delivery to all 47 counties — anywhere in Kenya." },
   { icon: Headphones, title: "Support That Answers", desc: "Reach us on WhatsApp — we're here to help before and after your order." },
 ];
 

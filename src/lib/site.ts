@@ -18,7 +18,7 @@ export const siteConfig = {
      BUSINESS PLACEHOLDERS — Replace with real details when
      available. These are intentionally left as placeholders.
      ============================================================ */
-  location: "Your business location here",
+  location: "Serving all 47 counties across Kenya",
   phoneDisplay: "0757 678 341",
   email: "hello@nexora.example",
   hours: "Mon – Sat · 8:00 AM – 7:00 PM",

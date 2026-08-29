@@ -9,7 +9,23 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const reduced = prefersReducedMotion();
-    const t = setTimeout(() => setReady(true), reduced ? 150 : 1100);
+    let seen = false;
+    try {
+      seen = sessionStorage.getItem("nexora-launched") === "1";
+    } catch {
+      /* storage unavailable — fall back to showing the loader */
+    }
+    const t = setTimeout(
+      () => {
+        setReady(true);
+        try {
+          sessionStorage.setItem("nexora-launched", "1");
+        } catch {
+          /* noop */
+        }
+      },
+      seen ? 0 : reduced ? 100 : 650
+    );
     return () => clearTimeout(t);
   }, []);
 
