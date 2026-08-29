@@ -69,12 +69,13 @@ html {
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(120% 120% at 50% -10%, #0a140c 0%, #050906 55%, #030503 100%);
   color: var(--foreground);
   font-family: var(--font-sans);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  isolation: isolate;
 }
 
 /* Custom cursor: hide native on fine pointers when enabled */
